@@ -47,6 +47,6 @@ Few considerations for definition & implementation :
 
 - We need to think about fuzzy logic (inconsistency and robustness)
 
-- Probable ingredients : ErlangVM, OTP, lisp-flavored, idris dependent types, interpreted for interractive development, => idris compilation for "debug" monolithic implementation, => Rust compilation for productioni distributed implementation, ontology development for strict specification definition, inference engine from ontology to implementation, 
+- Probable ingredients : ErlangVM, OTP, lisp-flavored, idris dependent types, interpreted for interractive development, => idris compilation for "debug" monolithic implementation, => Rust compilation for productioni distributed implementation, ontology development for strict specification definition, inference engine from ontology to implementation, visual design / programming, ologs, category/map theory, https://bubbl.us/7520536, 
 
 
