@@ -45,8 +45,16 @@ Few considerations for definition & implementation :
 
 - We need to think about the IoT future...
 
-- We need to think about fuzzy logic (inconsistency and robustness)
+- We need to think about fuzzy logic (inconsistency and robustness), as well as https://en.wikipedia.org/wiki/Intuitionistic_logic
 
-- Probable ingredients : ErlangVM, OTP, lisp-flavored, idris dependent types, interpreted for interractive development, => idris compilation for "debug" monolithic implementation, => Rust compilation for productioni distributed implementation, ontology development for strict specification definition, inference engine from ontology to implementation, visual design / programming, ologs, category/map theory, https://bubbl.us/7520536, 
+- Probable ingredients : ErlangVM, OTP, lisp-flavored, idris dependent types, interpreted for interractive development, => idris compilation for "debug" monolithic implementation, => Rust compilation for productioni distributed implementation, ontology development for strict specification definition (check SUMO), inference engine from ontology to implementation, visual design / programming, ologs (Hasse diagram style?) category/map theory, https://bubbl.us/7520536, intuitive human syntax (YAML style), intuitive machine syntax ( Unlambda, SKI calculusa, iota, zot ).
+
+- Idea for lowlevel compiled "bytecode" representation : Unlambda/SKI/zot binary representation + erlang interpreter (waiting for direct implementation in hardware, somehow. FPGA would be a good candidate to demonstrate fine grained distribution capabilities). Naming idea : https://en.wikipedia.org/wiki/Kalapas -> Particle Theory may prove hte Universe is a computer ? Check also https://en.wikipedia.org/wiki/Mereology
+
+- We might base our implementation on CAM https://en.wikipedia.org/wiki/Categorical_abstract_machine, or derive some erlang implementation. This could also prove useful for visual programming if we can find a functor to https://en.wikipedia.org/wiki/Analytic_geometry.
+
+- Collaboration and Decision process. As always when deciding on a language or any representation, consensus is very difficult to achieve. We should be helped here by the language features (integrated analytics), that provide feedback to language developers about the features used or not, and when used (editing time) correcty/incorrectly (at editing time : correctness based on types). this will enable a data driven informed decision process. some non-naive voting system might also be involved.
+
+- Dogfooding on structured modeled development process ( the development process for any app in the language, can be modeled in the language => the development process of the language itself can be modeled in the language ).
 
 
